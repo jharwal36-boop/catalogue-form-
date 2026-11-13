@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIRC Student Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SIRC Student Catalogue</h1>
+        <p>IIT Kharagpur</p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>Student Catalogue Submission</h2>
+            <p>Please fill in your details below.</p>
+        </section>
+
+        <form id="catalogueForm">
+
+            <h2>Personal Details</h2>
+
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+
+            <label>Roll Number</label>
+            <input type="text" name="roll" placeholder="Enter your roll number" required>
+
+            <label>Department</label>
+            <input type="text" name="department" placeholder="Enter your department" required>
+
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+
+            <h2>Catalogue Details</h2>
+
+            <label>Catalogue Title</label>
+            <input type="text" name="title" placeholder="Enter catalogue title" required>
+
+            <label>Description</label>
+            <textarea name="description" placeholder="Describe your entry" required></textarea>
+
+            <label>Upload Catalogue File</label>
+            <input type="file" name="catalogueFile" required>
+
+            <button type="submit">Submit Catalogue</button>
+
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

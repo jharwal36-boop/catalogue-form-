@@ -1,0 +1,133 @@
+
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #334155;
+}
+
+/* Website header */
+header {
+    background: linear-gradient(135deg, #17365d, #245b91);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Main content */
+main {
+    max-width: 750px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+/* Introduction section */
+.intro {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.intro h2 {
+    color: #17365d;
+    margin-bottom: 12px;
+}
+
+.intro p {
+    color: #64748b;
+}
+
+/* Form design */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+form h2 {
+    color: #17365d;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+    background: #fff;
+}
+
+textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+/* Focus effect */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background-color: #17365d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #245b91;
+}
+
+/* Mobile responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
